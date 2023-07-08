@@ -14,7 +14,7 @@ Make sure you have the following tools installed:
 
 1. Clone the repository:
 ```
-git clone <repository-url>
+git clone https://github.com/erpankajk4/GoKart.git
 ```
 
 2. Install the dependencies:
