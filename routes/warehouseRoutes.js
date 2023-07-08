@@ -41,8 +41,8 @@ http://localhost:8080/warehouses/getByState/HR
 // Add stock to a warehouse
 http://localhost:8080/warehouses/addStock
 {
-  "sku_id": "",
-  "warehouseId": "your_warehouseId_here",
+  "sku_id": "2329",
+  "warehouseId": "HR5603",
   "quantity": 10
 }
 add SKU ID of the product
