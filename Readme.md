@@ -107,7 +107,7 @@ The following are the available API endpoints for testing the GoKart backend. Yo
 ```
 **Process an order**
 ` http://localhost:8080/customer/orders/process`
-``` json
+```json
  {
   "customerId": "123",
   "sku_id": "3175",
