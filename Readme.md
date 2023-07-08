@@ -113,7 +113,8 @@ The following are the available API endpoints for testing the GoKart backend. Yo
   "sku_id": "3175",
   "orderQty": 5,
   "customerLoc": "fbd"
-}```
+}
+```
 
 ** View all orders**
 ` http://localhost:8080/customer/orders`
