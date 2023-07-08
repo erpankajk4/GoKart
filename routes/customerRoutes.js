@@ -6,6 +6,9 @@ const productController = require('../controllers/productController');
 // Add a new customer
 router.post('/addCustomer', customerController.addCustomer);
 
+// Delete customer by ID
+router.delete('/:customerId', customerController.deleteCustomerById); 
+
 // Process an order
 router.post('/orders/process', productController.processOrder);
 
@@ -24,6 +27,9 @@ module.exports = router;
     "customerId" : "123"
 }
 
+// Delete customer by ID
+ http://localhost:8080/customer/:customerId
+
 // Process an order
  http://localhost:8080/customer/orders/process
  {
@@ -35,4 +41,5 @@ module.exports = router;
 
 // View all orders
  http://localhost:8080/customer/orders
- ************************************ */
+
+ *****************************************/
