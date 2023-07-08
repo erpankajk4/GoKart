@@ -1,0 +1,17 @@
+{
+  "name": "gokart",
+  "version": "1.0.0",
+  "description": " implementation of the backend for managing the product inventory in GoKart using Node.js, Express, and Mongoose. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pankaj",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.2"
+  }
+}
