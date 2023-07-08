@@ -31,6 +31,7 @@ exports.addWarehouse = async (req, res) => {
     res.status(500).json({ error: 'Failed to add the warehouse' });
   }
 };
+/***************************************************************************/
 
 // Get all warehouses
 exports.getAllWarehouses = async (req, res) => {
@@ -42,6 +43,7 @@ exports.getAllWarehouses = async (req, res) => {
     res.status(500).json({ error: 'Failed to fetch warehouses' });
   }
 };
+/**************************************************************/
 
 // Get warehouses by state code
 exports.getWarehousesByState = async (req, res) => {
@@ -61,7 +63,7 @@ exports.getWarehousesByState = async (req, res) => {
     res.status(500).json({ error: 'Failed to fetch warehouses' });
   }
 };
-
+/****************************************************************/
 // Add stock to a warehouse
 exports.addStock = async (req, res) => {
   try {
@@ -128,6 +130,7 @@ function getWarehouseStockQuantity(warehouse) {
   }
   return totalQuantity;
 }
+/**********************************************************************/
 
 // View states with code, number of warehouses, and total stock capacity
 exports.viewStates = async (req, res) => {
@@ -156,6 +159,7 @@ exports.viewStates = async (req, res) => {
     res.status(500).json({ error: 'Failed to fetch state data' });
   }
 };
+/**********************************************************************/
 
 // Get warehouse information by warehouseId
 exports.getWarehouseInfo = async (req, res) => {
@@ -203,3 +207,4 @@ async function calculateProductStockQuantity(sku_id) {
 
   return stockQuantity;
 }
+/**********************************************************************/
