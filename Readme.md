@@ -82,7 +82,7 @@ Example:
 `GET http://localhost:8080/warehouses/getAll`
 
 **Get warehouses by state code**
-`GET http://localhost:8080/warehouses/getByState/state_code`
+`GET http://localhost:8080/warehouses/getByState/:state_code`
 - State Code: AP, AR, AS, BR etc.
 - more state codes can be added in config\states.js
 
